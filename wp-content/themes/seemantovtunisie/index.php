@@ -42,8 +42,7 @@
         <div class="overlay"></div>
         <div class="fh5co-text"> <i class="fh5co-intro-icon icon-rocket"></i>
           <h2>Début de la mission</h2>
-          <div><br>
-          </div>
+          
           <p>La mission commence, les fonds sont bloqués et versés (au prorata du travail éffectué) au développeur après validation de chaque étape (sprints).</p>
           <p><a href="<?php echo site_url(); ?>/nos-services/recrutement/" class="btn btn-primary">Commencez la mission!</a></p>
         </div>
