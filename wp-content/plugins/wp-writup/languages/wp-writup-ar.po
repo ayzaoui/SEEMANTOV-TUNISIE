@@ -1,0 +1,1566 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - WordPress SEO Plugin, Your SEO writing "
+"optimizer, WPWRITUP - Stable (latest release)\n"
+"POT-Creation-Date: 2017-08-28 14:51+0200\n"
+"PO-Revision-Date: 2017-09-06 21:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dailycom : Dailycom <contact@dailycom.agency>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: D:/Users/admin283111/Desktop/Work/wpwritup/httpdocs\n"
+"X-Poedit-WPHeader: wpwriting.php\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: _assets\n"
+
+#: _inc/wpw_ajx_translate.php:7
+msgid "We found your main keyword in the H1 tag"
+msgstr "تم العثور على الكلمة المفتاحية في ترويسة H1"
+
+#: _inc/wpw_ajx_translate.php:10
+msgid "Add your main keyword in the H1 tag"
+msgstr "اضف الكلمة المفتاحية الرئيسية في ترويسة H1"
+
+#: _inc/wpw_ajx_translate.php:13
+msgid "No h1 tag found"
+msgstr "لم يتم العثور على اي ترويسة H1"
+
+#: _inc/wpw_ajx_translate.php:16
+msgid "You must not use more than 4 H1 tags"
+msgstr "لا يجب إستعمال أكثر من 4 ترويسات H1"
+
+#: _inc/wpw_ajx_translate.php:19
+msgid "We found all of the secondary keywords in the H2 tag"
+msgstr "تم العثور على جميع الكلمات المفتاحية الثانوية في ترويسه H2"
+
+#: _inc/wpw_ajx_translate.php:22
+msgid "All secondary keywords must be in H2 tag"
+msgstr "على جميع الكلمات المفتاحية الثانوية ان تكون في ترويسه H2"
+
+#: _inc/wpw_ajx_translate.php:25
+msgid "No h2 tag found"
+msgstr "لم يتم العثور على اي علامات H2"
+
+#: _inc/wpw_ajx_translate.php:28
+msgid "We found all your keywords in H3 tag"
+msgstr "تم العثور على جميع الكلمات المعجميه في ترويسه H3"
+
+#: _inc/wpw_ajx_translate.php:31
+msgid "We found some of your keywords in the H3 tag"
+msgstr "تم العثور على بعض الكلمات المعجميه في ترويسه H3"
+
+#: _inc/wpw_ajx_translate.php:34
+msgid "Add the main, secondary or lexical keywords in the H3 tag"
+msgstr "أضف الكلمات المفتاحية المعجمية في ترويسه H3"
+
+#: _inc/wpw_ajx_translate.php:37
+msgid "No h3 tag found"
+msgstr "لم يتم العثور على اي ترويسة H3"
+
+#: _inc/wpw_ajx_translate.php:40
+msgid "We found all of your keywords in one of the H3, H4 or H5 tags"
+msgstr ""
+"تم العثور على بعض كلماتك المفتاحية المعجمية في إحدى ترويسات H3 أو H4 أو H5"
+
+#: _inc/wpw_ajx_translate.php:43
+msgid "We found some of your keywords in one of the H3, H4 or H5 tags"
+msgstr ""
+"تم العثور على بعض كلماتك المفتاحية المعجمية في إحدى ترويسات H3 أو H4 أو H5"
+
+#: _inc/wpw_ajx_translate.php:46
+msgid "It is advisable to add secondary or lexical keywords to H4, H5 or H6"
+msgstr "ينصح بإضافة كلمات مفتاحية ثانوية أو معجمية في ترويسات H4 أو H5 أو H6"
+
+#: _inc/wpw_ajx_translate.php:49
+msgid "No H4, H5 or H6 tag was found, it is advisable to add"
+msgstr ""
+"لم يتم العثور على ترويسات H4، H5 أو H6، حيث ينصح بإضافتها لتحسين المحتوى"
+
+#: _inc/wpw_ajx_translate.php:52 _inc/wpw_ajx_translate.php:73
+#: _inc/wpw_ajx_translate.php:163
+msgid "words"
+msgstr "كلمات"
+
+#: _inc/wpw_ajx_translate.php:55
+msgid "Note"
+msgstr "ملاحظة"
+
+#: _inc/wpw_ajx_translate.php:58
+msgid "The text is too short missing"
+msgstr "النص قصير جدا"
+
+#: _inc/wpw_ajx_translate.php:61
+msgid ""
+"The text includes the minimum number of words, however you should enrich it"
+msgstr "يتضمن النص الحد الأدنى لعدد الكلمات، ولكن يجب أن تثري ذلك"
+
+#: _inc/wpw_ajx_translate.php:64
+msgid "The text includes many words, carry on like this"
+msgstr "يتضمن النص العديد من الكلمات، الاستمرار في مثل هذا"
+
+#: _inc/wpw_ajx_translate.php:67
+msgid "The text includes many words, bravo!"
+msgstr "يتضمن النص العديد من الكلمات، برافو!"
+
+#: _inc/wpw_ajx_translate.php:70
+msgid "The text includes enough words, it's perfect!"
+msgstr "يشمل المحتوى على ما يكفي من الكلمات، ممتاز!"
+
+#: _inc/wpw_ajx_translate.php:76
+msgid "One of your paragraphs is too short"
+msgstr "بعض الفقرات قصيرة جدا"
+
+#: _inc/wpw_ajx_translate.php:79
+msgid "The number of words in the paragraphs is correct!"
+msgstr "عدد الكلمات في الفقرات صحيح!"
+
+#: _inc/wpw_ajx_translate.php:82
+msgid "One of your paragraphs is too large to"
+msgstr "بعض الفقرات طويلة جدا"
+
+#: _inc/wpw_ajx_translate.php:85
+msgid "No paragraphs found"
+msgstr "لم يتم العثور على فقرات"
+
+#: _inc/wpw_ajx_translate.php:88
+msgid ""
+"Your essay must contain no more than 25 per cent of sentences of more than "
+"20 words"
+msgstr ""
+"يجب أن تحتوي مقالتك على ما لا يزيد عن 25% من الجمل التي تحتوي على اكثر من 20 "
+"كلمة للقراءة الامثل"
+
+#: _inc/wpw_ajx_translate.php:91
+msgid "Your sentences have a good length"
+msgstr "طول الجمل ضمن النطاق السليم . ممتاز"
+
+#: _inc/wpw_ajx_translate.php:94
+msgid "it must be between 0.5% and 2.4%"
+msgstr "يجب أن يكون بين 0.5% و 2.4%"
+
+#: _inc/wpw_ajx_translate.php:97
+msgid "The presence rate of the main keyword is"
+msgstr "معدل ظهور الكلمة المفتاحية الرئيسية هو"
+
+#: _inc/wpw_ajx_translate.php:100
+msgid "The presence rate of the main keyword is correct"
+msgstr "معدل ظهور الكلمة المفتاحية الرئيسية مناسب جدا"
+
+#: _inc/wpw_ajx_translate.php:103
+msgid "Use at least once your secondary and lexical keywords"
+msgstr "استخدم الكلمات المفتاحية الثانوية والمعجمية مرة واحدة على الأقل"
+
+#: _inc/wpw_ajx_translate.php:106
+msgid "Your secondary and lexical keywords are used at least once"
+msgstr "لقد إتستخدمت كلماتك الرئيسية الثانوية والمعجمية مرة واحدة على الأقل"
+
+#: _inc/wpw_ajx_translate.php:109
+msgid "Add the main keyword in bold at least once"
+msgstr "أضف الكلمة المفتاحية الرئيسية بخط عريض مرة واحدة على الأقل"
+
+#: _inc/wpw_ajx_translate.php:112
+msgid "We found your main keyword at least once in bold"
+msgstr "تم العثور على الكلمة المفتاحية الرئيسية مرة واحدة على الأقل بخط عريض"
+
+#: _inc/wpw_ajx_translate.php:115
+msgid "it must be 30%"
+msgstr "يجب ان يكون 30%"
+
+#: _inc/wpw_ajx_translate.php:118
+msgid "The rate of sentences with a transition word is"
+msgstr "معدل الجمل التي تحتوي على كلمة انتقالية هو"
+
+#: _inc/wpw_ajx_translate.php:121
+msgid "The rate of sentences with a transition word is correct"
+msgstr "معدل الجمل التي تحتوي على كلمة انتقالية مناسب"
+
+#: _inc/wpw_ajx_translate.php:124
+msgid ""
+"The text contains too many consecutive sentences beginning with the same "
+"word. Try to mix it all up!"
+msgstr ""
+"تحتوي كتاباتك على عدد كبير جدا من الجمل المتتالية التي تبدأ بنفس الكلمة. قم "
+"باعادة الدمج!"
+
+#: _inc/wpw_ajx_translate.php:127
+msgid "We found no images on this page, add it to your cart !"
+msgstr "لم يتم العثور على أي صورة في هذه الصفحة، قم بإضافة واحدة على الاقل!"
+
+#: _inc/wpw_ajx_translate.php:130
+msgid "The primary keyword must be used once in an ALT tag"
+msgstr ""
+"الكلمة المفتاحية الاساسية يجب ان تستخدم مرة واحدة على الاقل في النص البديل "
+"ALT tag"
+
+#: _inc/wpw_ajx_translate.php:133
+msgid "We found the main keyword in an ALT tag"
+msgstr "تم العثور على الكلمة المفتاحية الرئيسية في النص البديل ALT tag"
+
+#: _inc/wpw_ajx_translate.php:136
+msgid "Some picture on this page does not contain alt !"
+msgstr "بعض الصور في الصفحة لا تحتوي على نص بديل ALT tag !"
+
+#: _inc/wpw_ajx_translate.php:139
+msgid "Awesome ! All images on this page contain alt tags"
+msgstr "عمل ممتاز ! جميع الصور في الصفحة تحتوي على نص بديل ALT tags"
+
+#: _inc/wpw_ajx_translate.php:142
+msgid "Ensure that the main keyword is present in an ALT tags"
+msgstr "تاكد من ان الكلمة المفتاحية الاساسية موجودة في النص البديل ALT tag"
+
+#: _inc/wpw_ajx_translate.php:145
+msgid "Add your main keyword in the title"
+msgstr "تم العثور على الكلمة المفتاحية الرئيسية في العنوان"
+
+#: _inc/wpw_ajx_translate.php:148
+msgid "We found your main keyword in the title"
+msgstr "تم العثور على الكلمة المفتاحية الرئيسية في العنوان"
+
+#: _inc/wpw_ajx_translate.php:151
+msgid "characters"
+msgstr "الاحرف"
+
+#: _inc/wpw_ajx_translate.php:154
+msgid "The title is too short"
+msgstr "العنوان قصير جدا"
+
+#: _inc/wpw_ajx_translate.php:157
+msgid "The title is too large by"
+msgstr "العنوان طويل جدا"
+
+#: _inc/wpw_ajx_translate.php:160
+msgid "The title of this page has a good length"
+msgstr "طول عنوان هذه الصفحة ضمن الحد المطلوب"
+
+#: _inc/wpw_ajx_translate.php:166
+msgid "The first main keyword is after"
+msgstr "معدل ظهور الكلمة المفتاحية الرئيسية هو"
+
+#: _inc/wpw_ajx_translate.php:169
+msgid "It must be present in the first 150 words of the text"
+msgstr "يجب أن تكون ظاهرة في أول 150 كلمة من النص"
+
+#: _inc/wpw_ajx_translate.php:172
+msgid "The main keyword is found in the first 150 words of the text"
+msgstr "تهانينا! الكلمة المفتاحية الرئيسية ظاهرة ضمن أول 150 كلمة من النص"
+
+#: _inc/wpw_ajx_translate.php:175
+msgid "Reading"
+msgstr "قراءة"
+
+#: _inc/wpw_ajx_translate.php:178
+msgid "Very easy to read (Text easily understood by children)"
+msgstr "قراءة سهلة جدا (يستوعبه الأطفال بسهولة)"
+
+#: _inc/wpw_ajx_translate.php:181
+msgid "Easy to read. (Text easily understood by juniors, cadets, beginners)"
+msgstr "سهل القراءة. (يستوعبه الصغار، والطلاب، والمبتدئين)"
+
+#: _inc/wpw_ajx_translate.php:184
+msgid "Quite easy to read. (Text easily understood by college, high school)"
+msgstr "العنوان قصير جدا"
+
+#: _inc/wpw_ajx_translate.php:187
+msgid "Relatively easy to read. (Text readily understood by students)"
+msgstr "سهل القراءة نسبيا . (يستوعبه الطلاب)"
+
+#: _inc/wpw_ajx_translate.php:190
+msgid ""
+"Hard enough to read. (Text readily understood by senior managers, graduates)"
+msgstr "صعب القراءة نسبيا. (يستوعبه المدراء والخريجين)"
+
+#: _inc/wpw_ajx_translate.php:193
+msgid "Difficult to read. (Text readily understood by diplomats)"
+msgstr "صعب القراءة. (يستوعبه الدبلوماسيين)"
+
+#: _inc/wpw_ajx_translate.php:196
+msgid "Very difficult to read. (Text easily understood by parliamentarian)"
+msgstr "صعب القراءة بشكل كبير. (يستوعبه اعضاء البرلمان)"
+
+#: _inc/wpw_ajx_translate.php:199
+msgid ""
+"Some similar keywords are too close, you must have at least 60 words between "
+"your same keywords."
+msgstr ""
+"بعض الكلمات المفتاحية متشابهة بشكل كبير ، يجب أن يكون لديك 60 كلمة على الأقل "
+"بين نفس الكلمات المفتاحية."
+
+#: _inc/wpw_ajx_translate.php:202
+msgid "Update"
+msgstr "تحديث"
+
+#: _inc/wpw_ajx_translate.php:205
+msgid "An update is available"
+msgstr "يتوفر تحديث"
+
+#: _inc/wpw_ajx_translate.php:208
+msgid "Available version"
+msgstr "الاصدار المتاح"
+
+#: _inc/wpw_ajx_translate.php:211
+msgid ""
+"Enjoy our latest update in which we fixed some bugs and improved our plugin "
+"to provide you with a fluid writing experience."
+msgstr "تمتع بالتحديثات واحصل على أفضل كتابة من حيث السيو SEO."
+
+#: _inc/wpw_ajx_translate.php:214
+msgid "Update plugin"
+msgstr "تحديث WP Writup"
+
+#: _inc/wpw_ajx_translate.php:217
+msgid "This option requires updating the plugin"
+msgstr "يتطلب هذا الخيار تحديث المكون الإضافي"
+
+#: _inc/wpw_ajx_translate.php:220
+msgid ""
+"Octave can not analyze your incredible content. You must verify or activate "
+"your subscription. If you have never used our plugin, you can activate the "
+"trial version."
+msgstr ""
+"لا يمكن تحليل المحتوى عبر أوكتاف . يجب عليك الاشتراك او التحقق من اشتراكك. "
+"إذا لم تقم باستخدام البرنامج المساعد WP Writup، يمكنك تفعيل النسخة التجريبية."
+
+#: _inc/wpw_ajx_translate.php:223
+msgid "Activate my version"
+msgstr "تفعيل الاصدار"
+
+#: _inc/wpw_ajx_translate.php:226
+msgid ""
+"Everything is ready on our side, when you start writing, the results of the "
+"analyzes are displayed as you go."
+msgstr "كل شيء جاهز، سوف تظهر نتائج التحليلات بالتزامن مع الكتابة."
+
+#: _inc/wpw_ajx_translate.php:229
+msgid "Add keywords for your future content"
+msgstr "اضف كلمات مفتاحية للكتابة اللاحقة"
+
+#: _inc/wpw_ajx_translate.php:232
+msgid "Start writing your content"
+msgstr "ابدأ بكتابة المحتوى"
+
+#: _inc/wpw_ajx_translate.php:235
+msgid "We will tell you what's wrong with your content"
+msgstr "سيتم اعلامك بالخطأ في المحتوى"
+
+#: _inc/wpw_ajx_translate.php:238
+msgid "It's perfect ! You have done a very good job."
+msgstr "ممتاز ! لقد قمت بعمل جيد."
+
+#: _inc/wpw_ajx_translate.php:241
+msgid "All right, you're near perfection, you're almost there."
+msgstr "جيد جدا، انت قريب من المثالية."
+
+#: _inc/wpw_ajx_translate.php:244
+msgid "YYou still have corrections to make, continue on this one."
+msgstr "لا يزال لديك بعض التصحيحات لإجراءها، تابع على هذا المنوال."
+
+#: _inc/wpw_ajx_translate.php:247
+msgid "This is a start, you have to start optimizing your content."
+msgstr "بداية جيدة، لقد بدأت في تحسين المحتوى."
+
+#: _inc/wpw_ajx_translate.php:250
+msgid "Not terrible, follow our advice to increase your overall rating."
+msgstr "ليس فظيعا، اتبع نصيحتنا لزيادة التقييم العام."
+
+#: _inc/wpw_ajx_translate.php:253
+msgid "Do not worry, you just started writing."
+msgstr "لا تقلق، لقد بدأت الكتابة للتو."
+
+#: _inc/wpw_ajx_translate.php:256
+msgid "No synonyms available"
+msgstr "لايوجد مرادفات متاحة"
+
+#: _inc/wpw_ajx_translate.php:259
+msgid "Synonym for the keyword"
+msgstr "مرادف الكلمة المفتاحية الرئيسية"
+
+#: _inc/wpw_ajx_translate.php:262 _inc/wpw_ajx_translate.php:268
+#: _inc/wpw_ajx_translate.php:274
+msgid "This option is not available in your subscription"
+msgstr "هذا الخيار غير متوفر في اشتراكك"
+
+#: _inc/wpw_ajx_translate.php:265
+msgid ""
+"We do not have sufficient information to carry out the semantics of your "
+"text."
+msgstr "ليس لدينا معلومات كافية لتنفيذ دلالات النص الخاص بك."
+
+#: _inc/wpw_ajx_translate.php:271
+msgid "We do not have sufficient information to synthesize your text."
+msgstr "ليس لدينا معلومات كافية لتحليل النص الخاص بك."
+
+#: _inc/wpw_ajx_translate.php:277
+msgid "Continue writing for your synthesis"
+msgstr "واصل لاكتابة لكي تتحصل على التحليل الخاص بك"
+
+#: _inc/wpw_ajx_translate.php:280
+msgid "Your email address or password is invalid"
+msgstr "عنوان البريد الإلكتروني أو كلمة المرور غير صالح"
+
+#: _inc/wpw_ajx_translate.php:283
+msgid "The username is already in use, choose another username."
+msgstr "اسم المستخدم مستخدم بالفعل، اختر اسم مستخدم آخر."
+
+#: _inc/wpw_ajx_translate.php:286
+msgid ""
+"Your email address is already in use. If you already have an account, log in!"
+msgstr ""
+"عنوان بريدك الإلكتروني مستخدم بالفعل . إذا كان لديك حساب ، فقم بتسجيل الدخول!"
+
+#: _inc/wpw_ajx_translate.php:289
+msgid "Please enter a username!"
+msgstr "يرجى اضافة اسم المستخدم!"
+
+#: _inc/wpw_ajx_translate.php:292
+msgid "Please enter a valid email address!"
+msgstr "يرجى ادخال بريد الكتروني فعال!"
+
+#: _inc/wpw_ajx_translate.php:295
+msgid "Please enter an email address!"
+msgstr "يرجى ادخال عنوان البريد الالكتروني!"
+
+#: _inc/wpw_ajx_translate.php:298 _inc/wpw_ajx_translate.php:313
+msgid "Please enter a password!"
+msgstr "يرجى ادخال الرقم السري!"
+
+#: _inc/wpw_ajx_translate.php:301 _inc/wpw_ajx_translate.php:316
+msgid "Your password must be at least 6 characters long."
+msgstr "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل."
+
+#: _inc/wpw_ajx_translate.php:304
+msgid "The specified email address is not associated with any WritUp account"
+msgstr "عنوان البريد الإلكتروني المحدد غير مرتبط بأي حساب WP WritUp"
+
+#: _inc/wpw_ajx_translate.php:307
+msgid "Please enter the verification code."
+msgstr "يرجى اضافة كود التعريف."
+
+#: _inc/wpw_ajx_translate.php:310
+msgid "The verification code is invalid."
+msgstr "كود التعريف خاطئ."
+
+#: _inc/wpw_ajx_translate.php:319
+msgid "Your password has been changed!"
+msgstr "تم تغيير كلمة السر بنجاح!"
+
+#: _inc/wpw_ajx_translate.php:322
+msgid ""
+"Your account has been suspended! If you think your account has been banned "
+"or suspended by mistake? Write U.S."
+msgstr ""
+"تم تعليق حسابك! إذا كنت تعتقد أن حسابك قد تم حظره أو تعليقه عن طريق الخطأ؟ "
+"اتصل بنا."
+
+#: _inc/wpw_ajx_translate.php:325
+msgid "Add this WordPress"
+msgstr "اضف هذا الى وورد برس"
+
+#: _inc/wpw_ajx_translate.php:328
+msgid ""
+"Your subscription does not allow you to add any additional wordpress, you "
+"can add a new subscription or remove the obsolete wordpress"
+msgstr ""
+"اشتراكك لا يسمح لك باضافة وورد برس اخر، يمكنك إضافة وورد برس اخر عبر اشتراك "
+"جديد أو إزالة وردبريس قديم"
+
+#: _inc/wpw_ajx_translate.php:331
+msgid "Your subscription allows you to add"
+msgstr "ان اشتراكك يسمح لك باضافة"
+
+#: _inc/wpw_ajx_translate.php:334
+msgid "wordpress extra"
+msgstr "وورد برس اضافي"
+
+#: _inc/wpw_ajx_translate.php:337
+msgid "No wordpress related to your subscription!"
+msgstr "ليس هناك اي وورد برس يخص اشتراكك!"
+
+#: _inc/wpw_ajx_translate.php:340
+msgid "Stop subscription"
+msgstr "ايقاف الاشتراك"
+
+#: _inc/wpw_ajx_translate.php:343
+msgid "Expires on"
+msgstr "ينتهي في"
+
+#: _inc/wpw_ajx_translate.php:346
+msgid "Select"
+msgstr "اختار"
+
+#: _inc/wpw_ajx_translate.php:349
+msgid "month"
+msgstr "شهر"
+
+#: _inc/wpw_ajx_translate.php:352
+msgid ""
+"No subscription is available for purchase at this time, come back later."
+msgstr "لا يتوفر أي اشتراك متاح للشراء في هذا الوقت، عد لاحقا."
+
+#: _inc/wpw_ajx_translate.php:355
+msgid "Are you sure you want to remove this wordpress from your subscription?"
+msgstr "هل انت متاكد من انك ترغب بإزالة الوورد برس هذا من اشتراكك؟"
+
+#: _inc/wpw_ajx_translate.php:358
+msgid ""
+"Are you sure you want to remove the automatic renewal of your subscription?"
+msgstr "هل انت متاكد من انك ترغب بإزالة التجديد التلقائي للاشتراك؟"
+
+#: _inc/wpw_ajx_translate.php:361
+msgid "We have temporarily disabled this option."
+msgstr "لقد عطلنا هذا الخيار مؤقتا."
+
+#: _inc/wpw_ajx_translate.php:364
+msgid ""
+"With our teams, our brand and our commitments, we are working together to "
+"improve our plugin. Thank you for your incredible patience."
+msgstr "شكرا لك على الصبر."
+
+#: _inc/wpw_box_top.php:21
+msgid "Our octopus is well installed"
+msgstr "يتم تثبيت البرنامج بشكل جيد"
+
+#: _inc/wpw_box_top.php:22
+msgid "Amazing intelligence."
+msgstr "ذو الذكاء المذهل."
+
+#: _inc/wpw_box_top.php:22
+msgid "It is capable of analysis, memorization and learning."
+msgstr "حيث انه لديه القدرة على التحليل، الحفظ والتعلم."
+
+#: _inc/wpw_box_top.php:23
+msgid "With a big appetite, she will feed on all your texts,"
+msgstr "وسيقوم باثراء المحتوى بذكاءه,"
+
+#: _inc/wpw_box_top.php:23
+msgid "To help you optimize the writing of your articles!"
+msgstr "لمساعدتك على تحسين كتابة مقالاتك!"
+
+#: _inc/wpw_box_top.php:24
+#, php-format
+msgid "When you first use it, you can activate the plugin for %s day."
+msgid_plural "When you first use it, you can activate the plugin for %s days."
+msgstr[0] ""
+"عند استخدامه لأول مرة، يمكنك تفعيل البرنامج المساعد WP Writup لمدة %s يوم."
+msgstr[1] ""
+"عند استخدامه لأول مرة، يمكنك تفعيل البرنامج المساعد WP Writup لمدة يوم."
+msgstr[2] ""
+"عند استخدامه لأول مرة، يمكنك تفعيل البرنامج المساعد WP Writup لمدة يومين."
+msgstr[3] ""
+"عند استخدامه لأول مرة، يمكنك تفعيل البرنامج المساعد WP Writup لمدة %s أيام."
+msgstr[4] ""
+"عند استخدامه لأول مرة، يمكنك تفعيل البرنامج المساعد WP Writup لمدة %s يوم."
+msgstr[5] ""
+"عند استخدامه لأول مرة، يمكنك تفعيل البرنامج المساعد WP Writup لمدة %s يوم."
+
+#: _inc/wpw_box_top.php:26
+msgid "We will guide you for your first time"
+msgstr "سنقوم بمساعدتك في المرة الأولى"
+
+#: _inc/wpw_box_top.php:31
+msgid "Continue"
+msgstr "استمر"
+
+#: _inc/wpw_box_top.php:39
+msgid "Enable / Disable"
+msgstr "تفعيل / تعطيل"
+
+#: _inc/wpw_box_top.php:40
+msgid ""
+"This button allows you to enable or disable the plugin on a page or article. "
+"No keyword as well as no verification will be performed"
+msgstr ""
+"يتيح لك هذا الزر تفعيل او تعطيل البرنامج المساعد WP Writup في الصفحة أو "
+"المقالة. لن يتم تنفيذ تحليل للصفحة او المقالة"
+
+#: _inc/wpw_box_top.php:47
+msgid "Information"
+msgstr "معلومات"
+
+#: _inc/wpw_box_top.php:48
+msgid ""
+"When available, you can click on this icon. It will give you additional "
+"information."
+msgstr ""
+"عندما يكون مفعلا ، يمكنك النقر على هذا الرمز. وسوف يمنحك معلومات إضافية."
+
+#: _inc/wpw_box_top.php:55
+msgid "Add your keywords"
+msgstr "اضف الكلمات المفتاحية"
+
+#: _inc/wpw_box_top.php:56
+msgid ""
+"In this form you can add your keyword, in this case this is your main "
+"keyword for this step. In the next step you will be able to add several "
+"secondary keywords, then you will be able to add your lexical keywords."
+msgstr ""
+"في هذا النموذج، يتم ترك الكلمة المفتاحية، وفي هذه الخطوة تكون هذه الكلمة "
+"المفتاحية الرئيسية. في الخطوة التالية، يمكنك إضافة كلمات مفتاحية ثانية بعدد "
+"2 او 4 من المستحسن."
+
+#: _inc/wpw_box_top.php:67
+msgid "Activation required"
+msgstr "يتطلب التفعيل"
+
+#: _inc/wpw_core.php:22
+msgid "Analysis"
+msgstr "تحليل"
+
+#: _inc/wpw_core.php:30
+msgid "Your keywords"
+msgstr "كلماتك المفتاحية"
+
+#: _inc/wpw_core.php:88
+msgid "Keywords"
+msgstr "الكلمات المفتاحية"
+
+#: _inc/wpw_core.php:89
+msgid "Synonyms"
+msgstr "المرادفات"
+
+#: _inc/wpw_core.php:90
+msgid "Semantics"
+msgstr "الالفاظ الدلالية"
+
+#: _inc/wpw_core.php:91
+msgid "Synthesis"
+msgstr "تحليل"
+
+#: _inc/wpw_core.php:96 _inc/wpw_core.php:155 _inc/wpw_core.php:222
+msgid "Step"
+msgstr "خطوة"
+
+#: _inc/wpw_core.php:98
+msgid "Your main keyword"
+msgstr "الكلمة المفتاحية الرئيسية"
+
+#: _inc/wpw_core.php:104
+msgid ""
+"For a good SEO, you need to start setting up a content strategy. The first "
+"thing to do is to choose the right keywords to position your web pages."
+msgstr ""
+"لتحسين التصنيف في محركات البحث، يجب البدء في إعداد إستراتيجية المحتوى. عن "
+"طريق اختيار الكلمات المفتاحية المناسبة ووضعها في الصفحات."
+
+#: _inc/wpw_core.php:107
+msgid ""
+"Do not forget that this is a crucial phase for your SEO and at the same time "
+"it's not that simple. Use our suggestion system that will help you during "
+"your keyword search."
+msgstr ""
+"لا تنسى أن هذه هي المرحلة الحاسمة لتحسين التصنيف SEO، وهي ليست بسيطة. استخدم "
+"نظام الاقتراحات الذي سيساعدك أثناء البحث عن الكلمات المفتاحية."
+
+#: _inc/wpw_core.php:110
+msgid ""
+"Writup will display as you type your keyword, proposals of the best queries "
+"based on the keyword you have indicated."
+msgstr ""
+"WP Writup سيقوم بعرض الكلمات المفتاحية والاقتراحات الأفضل استنادا إلى الكلمة "
+"المفتاحية الرئيسية وذلك اثناء الكتابة."
+
+#: _inc/wpw_core.php:126
+msgid "Primary Kewords"
+msgstr "الكلمات المفتاحية الأساسية"
+
+#: _inc/wpw_core.php:128
+msgid "Add the main keyword"
+msgstr "اضافة كلمة مفتاحية رئيسية"
+
+#: _inc/wpw_core.php:130 _inc/wpw_core.php:195 _inc/wpw_core.php:265
+msgid "Add"
+msgstr "اضافة"
+
+#: _inc/wpw_core.php:133 _inc/wpw_core.php:291
+msgid "Main keyword"
+msgstr "الكلمات المفتاحية الرئيسية"
+
+#: _inc/wpw_core.php:148 _inc/wpw_core.php:216
+msgid "Next"
+msgstr "التالي"
+
+#: _inc/wpw_core.php:157
+msgid "Your secondary keywords"
+msgstr "اضف الكلمات المفتاحية الثانوية"
+
+#: _inc/wpw_core.php:163
+msgid ""
+"Secondary keywords are declinations of your main keyword. To enrich the "
+"semantics of your content, not forgetting that it is the easiest way to "
+"google to notice you and appreciate your editorial."
+msgstr ""
+"الكلمات المفتاحية الثانوية تتكامل مع الكلمة المفتاحية الرئيسية. فهي تعمل على "
+"إثراء المحتوى، ناهيك عن أنها أفضل وسيلة لكي تلاحظ من قبل محرك البحث غوغل "
+"وبالتالي تحسين تصنيفك لديهم\"."
+
+#: _inc/wpw_core.php:166
+msgid ""
+"Having a relationship between keywords will promote understanding of your "
+"content by search engine robots. We advise you to put between 2 and 4 "
+"secondary keywords."
+msgstr ""
+"إن وجود علاقة بين الكلمات المفتاحية سيعزز من فهم المحتوى من قبل روبوتات "
+"محركات البحث. ننصحك بوضع ما بين 2 و 4 كلمات مفتاحية ثانوية."
+
+#: _inc/wpw_core.php:178 _inc/wpw_core.php:242
+msgid "Suggestion based on the main keyword"
+msgstr "اقتراح اعتمادا على الكلمة المفتاحية الرئيسية"
+
+#: _inc/wpw_core.php:178 _inc/wpw_core.php:242
+msgid "Click to add"
+msgstr "اضغط على اضافة"
+
+#: _inc/wpw_core.php:188
+msgid "Secondary Kewords"
+msgstr "الكلمات المفتاحية الثانوية"
+
+#: _inc/wpw_core.php:190 _inc/wpw_core.php:191 _inc/wpw_core.php:192
+#: _inc/wpw_core.php:255 _inc/wpw_core.php:256 _inc/wpw_core.php:257
+#: _inc/wpw_core.php:258 _inc/wpw_core.php:259 _inc/wpw_core.php:260
+#: _inc/wpw_core.php:261
+#, php-format
+msgid "Add Keyword (recomend)"
+msgid_plural "Add %s Keywords (recommend)"
+msgstr[0] "ننصحكم بإضافة كلمة مفتاحية"
+msgstr[1] "ننصحكم بإضافة كلمة مفتاحية"
+msgstr[2] "ننصحكم بإضافة كلمتان مفتاحية"
+msgstr[3] "ننصحكم بإضافة %s كلمات مفتاحية"
+msgstr[4] "اضافة %s كلمة مفتاحية"
+msgstr[5] "اضافة %s كلمة مفتاحية"
+
+#: _inc/wpw_core.php:193 _inc/wpw_core.php:262
+#, php-format
+msgid "Add Keyword"
+msgid_plural "Add %s Keywords"
+msgstr[0] "إلزامي إضافة كلمة مفتاحية"
+msgstr[1] "إلزامي إضافة كلمة مفتاحية"
+msgstr[2] "إلزامي إضافة كلمتان مفتاحية"
+msgstr[3] "إلزامي إضافة %s كلمات مفتاحية"
+msgstr[4] "إلزامي إضافة %s كلمة مفتاحية"
+msgstr[5] "إلزامي إضافة %s كلمة مفتاحية"
+
+#: _inc/wpw_core.php:198 _inc/wpw_core.php:303
+msgid "Secondary keywords"
+msgstr "الكلمات المفتاحية الثانوية"
+
+#: _inc/wpw_core.php:213 _inc/wpw_core.php:283
+msgid "Previous"
+msgstr "السابق"
+
+#: _inc/wpw_core.php:224
+msgid "Your keywords lexical"
+msgstr "كلماتك المفتاحية المعجمية"
+
+#: _inc/wpw_core.php:230
+msgid ""
+"Lexical keywords are terms related to your main and secondary keywords, "
+"which are only intended to show the search engines that you master all the "
+"vocabulary surrounding the subject."
+msgstr ""
+"الكلمات المفتاحية المعجمية عبارة عن مصطلحات مرتبطة بالكلمات المفتاحية "
+"الرئيسية والثانوية، والتي تهدف الى اظهار قدرتك على الاحاطة بجميع المفردات "
+"المحيطة بالموضوع لمحركات البحث. يجب أن يكون لديك 8 كلمات مفتاحية المعجمية "
+"على الأقل."
+
+#: _inc/wpw_core.php:253
+msgid "Lexical Kewords"
+msgstr "الكلمات المفتاحية المعجمية"
+
+#: _inc/wpw_core.php:263
+msgid "Add additional keywords"
+msgstr "اضافة كلمات مفتاحية"
+
+#: _inc/wpw_core.php:268 _inc/wpw_core.php:315
+msgid "Lexical keywords"
+msgstr "الكلمات المفتاحية المعجمية"
+
+#: _inc/wpw_core.php:286
+msgid "Finish"
+msgstr "انهاء"
+
+#: _inc/wpw_core.php:330
+msgid "Edit"
+msgstr "تعديل"
+
+#: _inc/wpw_core.php:337
+msgid "We are looking for available synonyms"
+msgstr "يتم البحث عن المرادفات المتاحة"
+
+#: _inc/wpw_core.php:344
+msgid "We prepare your semantics"
+msgstr "قمنا بتجهيز تحليل الالفاظ الدلالية"
+
+#: _inc/wpw_core.php:355
+msgid ""
+"Follow the proposed semantics so that the editorial does not get away from "
+"being subject and your content is semantically rich."
+msgstr ""
+"اتبع الدلالات المقترحة، بحيث أن مقالك لا يكون بعيدا عن الموضوع، و أن يكون "
+"غني من الناحية الدلالية."
+
+#: _inc/wpw_core.php:362
+msgid "The aspects you need to talk about."
+msgstr "الموضوعات التي تحتاج إلى الحديث عنها."
+
+#: _inc/wpw_core.php:371
+msgid "Content to enrich and optimize your writing"
+msgstr "المحتوى لإثراء مقالك"
+
+#: _inc/wpw_core.php:384
+msgid "We prepare your synthesis"
+msgstr "قمنا بتجهيز تحليل الالفاظ الدلالية"
+
+#: _inc/wpw_setting_callback.php:14 _inc/wpw_subscription_callback.php:13
+msgid "Sign in"
+msgstr "تسجيل دخول"
+
+#: _inc/wpw_setting_callback.php:15 _inc/wpw_subscription_callback.php:14
+msgid "New account"
+msgstr "حساب جديد"
+
+#: _inc/wpw_setting_callback.php:22 _inc/wpw_setting_callback.php:23
+#: _inc/wpw_setting_callback.php:55 _inc/wpw_setting_callback.php:56
+#: _inc/wpw_setting_callback.php:82 _inc/wpw_setting_callback.php:83
+#: _inc/wpw_subscription_callback.php:21 _inc/wpw_subscription_callback.php:22
+#: _inc/wpw_subscription_callback.php:54 _inc/wpw_subscription_callback.php:55
+#: _inc/wpw_subscription_callback.php:81 _inc/wpw_subscription_callback.php:82
+msgid "E-mail"
+msgstr "البريد الالكتروني"
+
+#: _inc/wpw_setting_callback.php:24 _inc/wpw_setting_callback.php:31
+#: _inc/wpw_setting_callback.php:51 _inc/wpw_setting_callback.php:57
+#: _inc/wpw_setting_callback.php:64 _inc/wpw_setting_callback.php:84
+#: _inc/wpw_setting_callback.php:109 _inc/wpw_setting_callback.php:116
+#: _inc/wpw_subscription_callback.php:23 _inc/wpw_subscription_callback.php:30
+#: _inc/wpw_subscription_callback.php:50 _inc/wpw_subscription_callback.php:56
+#: _inc/wpw_subscription_callback.php:63 _inc/wpw_subscription_callback.php:83
+#: _inc/wpw_subscription_callback.php:108
+#: _inc/wpw_subscription_callback.php:115
+msgid "Error message here!"
+msgstr "خطأ هنا!"
+
+#: _inc/wpw_setting_callback.php:28 _inc/wpw_setting_callback.php:29
+#: _inc/wpw_setting_callback.php:61 _inc/wpw_setting_callback.php:62
+#: _inc/wpw_subscription_callback.php:27 _inc/wpw_subscription_callback.php:28
+#: _inc/wpw_subscription_callback.php:60 _inc/wpw_subscription_callback.php:61
+msgid "Password"
+msgstr "الرقم السري"
+
+#: _inc/wpw_setting_callback.php:30 _inc/wpw_setting_callback.php:63
+#: _inc/wpw_setting_callback.php:115 _inc/wpw_subscription_callback.php:29
+#: _inc/wpw_subscription_callback.php:62 _inc/wpw_subscription_callback.php:114
+msgid "Show"
+msgstr "اظهر"
+
+#: _inc/wpw_setting_callback.php:34 _inc/wpw_subscription_callback.php:33
+msgid "Login"
+msgstr "تسجيل دخول"
+
+#: _inc/wpw_setting_callback.php:42 _inc/wpw_subscription_callback.php:41
+msgid "Forgot your password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: _inc/wpw_setting_callback.php:49 _inc/wpw_setting_callback.php:50
+#: _inc/wpw_subscription_callback.php:48 _inc/wpw_subscription_callback.php:49
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: _inc/wpw_setting_callback.php:67 _inc/wpw_subscription_callback.php:66
+msgid "Create account"
+msgstr "حساب جديد"
+
+#: _inc/wpw_setting_callback.php:77 _inc/wpw_subscription_callback.php:76
+msgid ""
+"Lost your password? Please enter your email address. You will receive a link "
+"to create a new password."
+msgstr ""
+"فقدت كلمة المرور ؟ يرجى إدخال عنوان البريد الإلكتروني. سوف تتلقى رابط لإنشاء "
+"كلمة مرور جديدة."
+
+#: _inc/wpw_setting_callback.php:88 _inc/wpw_subscription_callback.php:87
+msgid "Reset password"
+msgstr "اعادة تعيين الرقم السري"
+
+#: _inc/wpw_setting_callback.php:97 _inc/wpw_subscription_callback.php:96
+msgid "Back to log-in"
+msgstr "الرجوع الى تسجيل الدخول"
+
+#: _inc/wpw_setting_callback.php:101 _inc/wpw_subscription_callback.php:100
+msgid "Enter your new password and validation code received by email."
+msgstr ""
+"قم بادخل كلمة مرور جديدة ورمز التحقق الذي استلمته عبر البريد الإلكتروني."
+
+#: _inc/wpw_setting_callback.php:107 _inc/wpw_setting_callback.php:108
+#: _inc/wpw_subscription_callback.php:106
+#: _inc/wpw_subscription_callback.php:107
+msgid "Code received by mail"
+msgstr "استلام الكود يتم عبر البريد"
+
+#: _inc/wpw_setting_callback.php:113 _inc/wpw_setting_callback.php:114
+#: _inc/wpw_subscription_callback.php:112
+#: _inc/wpw_subscription_callback.php:113
+msgid "New Password"
+msgstr "رقم سري جديد"
+
+#: _inc/wpw_setting_callback.php:120 _inc/wpw_subscription_callback.php:119
+msgid "Validate password"
+msgstr "التحقق من الرقم السري"
+
+#: _inc/wpw_setting_callback.php:128 _inc/wpw_subscription_callback.php:127
+msgid "Cancel"
+msgstr "الغاء"
+
+#: _inc/wpw_setting_callback.php:132 _inc/wpw_subscription_callback.php:131
+#: _inc/wpw_subscription_callback.php:141
+msgid "Close"
+msgstr "اغلاق"
+
+#: _inc/wpw_setting_callback.php:145
+msgid "Activation status"
+msgstr "حالة التفعيل"
+
+#: _inc/wpw_setting_callback.php:150
+msgid "It is done ! We have activated your trial version, enjoy it well."
+msgstr "تم ذلك! لقد تم تفعيل النسخة التجريبية ، تمتع الان."
+
+#: _inc/wpw_setting_callback.php:154
+msgid ""
+"Awesome ! The plugin is enabled on this wordpress, enjoy writing your "
+"articles!"
+msgstr ""
+"رائع ! تم تفعيل البرنامج المساعد WP Writup في الوورد برس، تمتع الان بكتابة "
+"مقالاتك!"
+
+#: _inc/wpw_setting_callback.php:157
+msgid ""
+"Little scoundrel! You've already taken advantage of the trial version, it's "
+"time to checkout. We have an offer to suit your budget."
+msgstr ""
+"غريب بعض الشيء! لقد قمت بالاستفادة من النسخة التجريبية، حان الوقت الخروج. "
+"لدينا عرض يتناسب مع ميزانيتك."
+
+#: _inc/wpw_setting_callback.php:162
+msgid "We check a few things"
+msgstr "نحن نتحقق من بعض الامور"
+
+#: _inc/wpw_setting_callback.php:169
+msgid ""
+"Octave is the name given to an octopus that has just settled in the depths "
+"of your wordpress. Extremely intelligent, it will surprise you and help you "
+"in optimizing your writing. If you have never used our plugin, you can "
+"activate the trial version, it is important that you can see for yourself "
+"the incredible need for this plugin."
+msgstr ""
+"أوكتاف هو الاسم الممنوح للأخطبوط الذي استقر للتو في أعماق وورد برس وهو ذكي "
+"للغاية، وسوف يفاجئك حيث سيساعدك في تحسين الكتابة. إذا لم تقم باستخدامه لدينا "
+"من قبل، يمكنك تفعيل النسخة التجريبية، فمن المهم أن ترى بنفسك مدى الحاجة "
+"الملحة له."
+
+#: _inc/wpw_setting_callback.php:170
+msgid "Start Trial"
+msgstr "قم بالتجربة"
+
+#: _inc/wpw_setting_callback.php:171 _inc/wpw_setting_callback.php:183
+#: _inc/wpw_setting_callback.php:196 _inc/wpw_setting_callback.php:206
+msgid "Activate now!"
+msgstr "تفعيل الان!"
+
+#: _inc/wpw_setting_callback.php:178 _inc/wpw_setting_callback.php:191
+msgid "Day ramaining"
+msgid_plural "Days ramainings"
+msgstr[0] "الأيام المتبقية"
+msgstr[1] "الأيام المتبقية"
+msgstr[2] "الأيام المتبقية"
+msgstr[3] "الأيام المتبقية"
+msgstr[4] "الأيام المتبقية"
+msgstr[5] "الأيام المتبقية"
+
+#: _inc/wpw_setting_callback.php:182
+msgid ""
+"Thank you for choosing to test our plugin for the writing of your articles, "
+"your evaluation version has been activated, the plugin is functional. It is "
+"time to go and see the incredible features of the plugin by writing a few "
+"articles!"
+msgstr ""
+"شكرا لقرارك باختبار البرنامج المساعد في كتابة مقالاتك، وقد تم تفعيل الإصدار "
+"التجريبي. حان الوقت لرؤية الميزات عن طريق كتابة عدد قليل من المقالات!"
+
+#: _inc/wpw_setting_callback.php:195
+msgid ""
+"The best things have an end, your trial version is over. You do not need to "
+"be sad, it's time for you to activate your version, no data will be lost "
+"during this process."
+msgstr ""
+"لكل شيء نهاية، لقد انتهت فترة التجريب. لا تحزن، حان الوقت بالنسبة لك لتنشيط "
+"الإصدار ، لن تضيع أي بيانات خلال هذه العملية."
+
+#: _inc/wpw_setting_callback.php:205
+msgid ""
+"It's a bad day for Octave. You may have turned off wordpress from your "
+"license or some unusual things to product deactivating the license. To "
+"continue using the plugin you need to activate your wordpress."
+msgstr ""
+"إنه يوم سيء لأوكتاف. ربما تكون قد قمت باخراج وردبريس من اشتراكك أو إلغاء "
+"تنشيط البرنامج. لمتابعة استخدام البرنامج المساعد تحتاج إلى تنشيط الوورد برس."
+
+#: _inc/wpw_setting_callback.php:215
+msgid ""
+"Some things did not go well, octave did not recognize are environment. This "
+"can happen for example when you have performed a restore or if you have "
+"magret your wordpress. To correct this problem, you must disable and then re-"
+"enable the plugin. If the problem persists, we recommend that you remove it "
+"and then install the latest version available in the wordpress library."
+msgstr ""
+"بعض الأمور لم تسير على ما يرام، أوكتاف لم يتعرف على هذه البيئة. يمكن أن يحدث "
+"ذلك اذا كنت قد أجريت اعادة ضبط أو إذا قمت بدمج وردبريس . لتصحيح هذه المشكلة، "
+"يجب تعطيل البرنامج ثم إعادة تفعيله. اما إذا استمرت المشكلة، فنوصي بازالة "
+"التثبيت وتحديث الإصدار المتوفر في مكتبة وردبريس."
+
+#: _inc/wpw_setting_callback.php:224
+msgid ""
+"Thanks for using WP WritUp! Your license is activated on your wordpress. To "
+"offer you a plugin that is always more efficient, we regularly update you. "
+"Each update of our plugin includes improvements in speed and reliability. As "
+"soon as other features are available, we will highlight them in the plugin."
+msgstr ""
+"شكرا لاستخدام WP WritUp! يتم تنشيط البرنامج وورد برس. وليكون البرنامج أكثر "
+"كفاءة، نقوم بتحديث البرنامج بانتظام. كل تحديث لدينا يتضمن تحسينات في السرعة "
+"والموثوقية. وسوف نقوم بتسليط الضوء على اي ميزات اخرى عند التحديث."
+
+#: _inc/wpw_setting_callback.php:225
+msgid "Writing an article"
+msgstr "كتابة مقالة"
+
+#: _inc/wpw_setting_callback.php:226
+msgid "Write a page"
+msgstr "كتابة صفحة"
+
+#: _inc/wpw_setting_callback.php:233
+msgid "Subscribe to this wordpress"
+msgstr "اشترك في وورد برس"
+
+#: _inc/wpw_setting_callback.php:239
+msgid "Manage your subscription"
+msgstr "قم بادارة اشتراكك"
+
+#: _inc/wpw_subscription_callback.php:138
+msgid "Yes"
+msgstr "نعم"
+
+#: _inc/wpw_subscription_callback.php:139
+msgid "No"
+msgstr "لا"
+
+#: _inc/wpw_subscription_callback.php:150
+msgid "Change account"
+msgstr "تغيير الحساب"
+
+#: _inc/wpw_subscription_callback.php:157
+msgid "Your subscriptions"
+msgstr "اشتراكاتك"
+
+#: _inc/wpw_subscription_callback.php:160
+msgid "You do not have any active subscription"
+msgstr "ليس لديك اي اشتراك فعال"
+
+#: _inc/wpw_subscription_callback.php:167
+msgid "Subscribes to a subscription"
+msgstr "التسجيل في الاشتراك"
+
+#: _inc/wpw_subscription_callback.php:178
+msgid ""
+"You can pay safely. The transaction is secured by SSL, it is done via the "
+"online payment systems stripe."
+msgstr ""
+"يمكنك الدفع بأمان لدينا. حيث يتم تشفير حركات الدفع من البطاقات عبر الانترنت "
+"عن طريق نظام تشفير SSL ."
+
+#: _inc/wpw_subscription_callback.php:191
+msgid "We proceed to payment"
+msgstr "سوف ننتقل الى الدفع"
+
+#: _inc/wpw_subscription_callback.php:194
+msgid "Validation of contracts"
+msgstr "التحقق من العقود"
+
+#: _inc/wpw_subscription_callback.php:197
+#, php-format
+msgid "I have read the %s General Conditions of Sale and Use %s"
+msgstr "لقد قرأت%s الشروط العامة للبيع والاستخدام%s"
+
+#: _inc/wpw_subscription_callback.php:201
+msgid ""
+"I acknowledge that Dailycom will proceed to the immediate execution of the "
+"service as of the validation of my order and as such I expressly waive my "
+"right of withdrawal in accordance with the provisions of Article L.221-28 1 "
+"° Of the Consumer Code."
+msgstr ""
+"انا على علم بأن ديلي كوم سوف تنتقل إلى التنفيذ الفوري للخدمة بعد التحقق من "
+"طلبي وعلى هذا النحو أنا اتنازل عن حق الانسحاب وفقا لأحكام المادة L.221-28 1 "
+"° من قانون المستهلك."
+
+#: _inc/wpw_subscription_callback.php:205
+msgid "Make payment for your subscription"
+msgstr "تسديد اشتراكك"
+
+#: _inc/wpw_subscription_callback.php:209
+msgid "Credit or debit card"
+msgstr "بطاقة ائتمان او بطاقة مسبقة الدفع"
+
+#: _inc/wpw_subscription_callback.php:214
+msgid "Get started"
+msgstr "ابدأ"
+
+#: _inc/wpw_subscription_callback.php:218
+msgid "Subscription"
+msgstr "الاشتراك"
+
+#: _inc/wpw_subscription_callback.php:222
+msgid "Stripe Fees"
+msgstr "الرسوم"
+
+#: _inc/wpw_subscription_callback.php:228
+msgid "Amount charged"
+msgstr "المبلغ المطلوب دفعه"
+
+#. Plugin Name of the plugin/theme
+msgid "WP WritUp"
+msgstr "WP WritUp"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wp-writup.fr"
+msgstr "https://wp-writup.fr"
+
+#. Description of the plugin/theme
+msgid "Le compagnon idéal pour la rédaction de vos pages de contenu WordPress."
+msgstr "الرفيق المثالي لكتابة المحتوى في وورد برس."
+
+#. Author of the plugin/theme
+msgid "Dailycom Agency."
+msgstr "شركة ديلي كوم."
+
+#~ msgid "You use at least once your secondary and lexical keywords"
+#~ msgstr ""
+#~ "يمكنك استخدام الكلمات المفتاحية الثانوية والمعجمية مرة واحدة على الأقل"
+
+#~ msgid ""
+#~ "No H1 tag was found. You have the right to have several H1 tags in an "
+#~ "editorial"
+#~ msgstr "لم يتم العثور على H1. يجب أن يكون هناك عدة ترويسات من H1 في النص"
+
+#~ msgid ""
+#~ "You should not use more than 4 H1 tags, otherwise your writing will be "
+#~ "over-optimized"
+#~ msgstr "لا يجب استخدام أكثر من 4 ترويسات H1 ، لتجنب الافراط في الاستخدام"
+
+#~ msgid ""
+#~ "No H2 tag was found. You have the possibility to have several H2 in the "
+#~ "same writing"
+#~ msgstr ""
+#~ "لم يتم العثور على تروسة H2 . لديك القدرة على كتابة عدة ترويسات H2 في النص"
+
+#~ msgid ""
+#~ "No H3 tag was found. You have the possibility to have several H3 in your "
+#~ "writing"
+#~ msgstr "لم يتم العثور على ترويسه H3. يمكنك كتابة عدة ترويسات H3 في المحتوى"
+
+#~ msgid "We found all your lexical keywords in one of the H3, H4 or H5 tags"
+#~ msgstr ""
+#~ "تم العثور على جميع كلماتك المفتاحية المعجمية في إحدى ترويسات H3 أو H4 أو "
+#~ "H5"
+
+#~ msgid "Your writing is too short you miss"
+#~ msgstr "المحتوى قصير"
+
+#~ msgid ""
+#~ "Your writing includes the minimum number of words required, however you "
+#~ "should enrich it. Do not forget to use synonyms, lexical keywords and "
+#~ "suggested words in semantic analysis"
+#~ msgstr ""
+#~ "يحتوي النص على الحد الأدنى لعدد الكلمات المطلوبة، وبالتالي يجب أن تثريه . "
+#~ "لا تنسى استخدام المرادفات، والكلمات المعجمية والكلمات المقترحة في تحليل "
+#~ "الالفاظ الدلالية"
+
+#~ msgid "Your essay is of a correct length, continue like this, go go go"
+#~ msgstr "ان طول مقالتك ضمن الحد المطلوب. استمر كذلك، هيا"
+
+#~ msgid "Your editing has a good length, bravo!"
+#~ msgstr "ان تحرير النص ضمن الطول المطلوب، هنيئا!"
+
+#~ msgid ""
+#~ "Add the main keyword in bold at least once. We advise you to add it in "
+#~ "the first paragraph of your article"
+#~ msgstr ""
+#~ "أضف الكلمة المفتاحية الرئيسية بخط عريض مرة واحدة على الأقل. ننصحك "
+#~ "بإضافتها في الفقرة الأولى من المقالة"
+
+#~ msgid ""
+#~ "Add your main keyword in the title. The best for your SEO is that it be "
+#~ "placed at the beginning of it"
+#~ msgstr ""
+#~ "قم باضافة الكلمة المفتاحية الرئيسية في العنوان. ويفضل ان تكون في البداية "
+#~ "وذلك لتحسين تصنيف الصفحة في محرك البحث"
+
+#~ msgid "The main keyword does not appear in the first paragraph of the text"
+#~ msgstr "الكلمة المفتاحية الرئيسية غير ظاهرة في الفقرة الأولى من النص"
+
+#~ msgid "There is no WP WriteUp account associated with this email address."
+#~ msgstr "لا يوجد حساب WP WriteUp مرتبط بعنوان البريد الإلكتروني ."
+
+#~ msgid ""
+#~ "The main keyword often refers to your offer or product but reformulated "
+#~ "as requested by a prospect."
+#~ msgstr ""
+#~ "تشير الكلمة المفتاحية الرئيسية إلى العرض أو المنتج ولكن تم إعادة صياغتها "
+#~ "حسب الطلب."
+
+#~ msgid "Secondary keywords are declinations of your main keyword"
+#~ msgstr "الكلمات المفتاحية الثانوية تتكامل مع الكلمة المفتاحية الرئيسية"
+
+#~ msgid "Start by entering your main keyword, then clicking the add button"
+#~ msgstr "ابدأ بإدخال الكلمة المفتاحية الرئيسية، ثم انقر على زر اضافة"
+
+#~ msgid "In the depths,"
+#~ msgstr "في أعماق،"
+
+#~ msgid "(In a rock shelter)"
+#~ msgstr "(في ملجأ صخري)"
+
+#~ msgid "It is important that you can see for yourself,"
+#~ msgstr "من المهم أن ترى نفسك،"
+
+#~ msgid "the incredible need for this plug-in."
+#~ msgstr "الحاجة الشديدة للبرنامج المساعد."
+
+#~ msgid "Remove subscription"
+#~ msgstr "الغاء الاشتراك"
+
+#~ msgid "Things to know,,"
+#~ msgstr "امور لمعرفتها،،"
+
+#~ msgid ""
+#~ "The first few times are often difficult, before you let your hands down "
+#~ "here are a few things to know."
+#~ msgstr ""
+#~ "في البداية غالبا ما تكون الامور صعبة، اليك بعض الامور التي عليك معرفتها."
+
+#~ msgid ""
+#~ "By default WP WritUp is enabled on your pages and articles, you can "
+#~ "disable it in case you do not need analysis for this writing."
+#~ msgstr ""
+#~ "افتراضيا يتم تفعيل WP WritUp على صفحاتك ومقالاتك، يمكنك تعطيله في حال كنت "
+#~ "لا تحتاج إلى تحليل للكتابة."
+
+#~ msgid ""
+#~ "When WP WritUp is enabled, you must first add the keywords before you "
+#~ "start writing."
+#~ msgstr ""
+#~ "عندما يتم تمكين WP WritUp ، يجب عليك أولا إضافة الكلمات المفتاحية قبل "
+#~ "البدء في الكتابة."
+
+#~ msgid ""
+#~ "You will find below the text editor the keyword reminder and the number "
+#~ "of times to use in your writing. To enrich your content we provide you "
+#~ "with a list of synonyms according to the main keyword."
+#~ msgstr ""
+#~ "سوف تجد في الاسفل محرر النص، منبه الكلمة المفتاحية وعدد المرات لاستخدامها "
+#~ "في كتاباتك. لإثراء المحتوى، نقدم لك قائمة بالمرادفات وفقا للكلمة "
+#~ "المفتاحية الرئيسية."
+
+#~ msgid ""
+#~ "To the right of the text editor you will see the analysis and your "
+#~ "overall score, it will be updated as you write."
+#~ msgstr ""
+#~ "إلى يمين محرر النص سترى التحليل والنتيجة الإجمالية، سيتم تحديثه أثناء "
+#~ "الكتابة."
+
+#~ msgid "You are ready ?"
+#~ msgstr "هل انت مستعد؟"
+
+#~ msgid ""
+#~ "Our octopus is eager to start work and also show you how essential it "
+#~ "will become."
+#~ msgstr "الأخطبوط مستعد لبدء العمل، وسيظهر لك مدى أهميته."
+
+#~ msgid ""
+#~ "It's time to let go, I think you're ready to fly out of your own garments."
+#~ msgstr "حان وقت الانطلاق."
+
+#~ msgid ""
+#~ "Do not worry it's very simple, just click the <Start Adventure!> Button."
+#~ msgstr "لا تقلق انها بسيطة جدا، فقط انقر على زر <ابدأ مغامرة!>."
+
+#~ msgid "* Attention, you will not be able to do without this plug-in: =)"
+#~ msgstr ""
+#~ "* تنبيه، لن تكون قادرا على القيام بالكتابة بدون هذا البرنامج المساعد: =)"
+
+#~ msgid "Start the adventure!"
+#~ msgstr "ابدأ المغامرة!"
+
+#~ msgid "Remember me"
+#~ msgstr "تذكرني"
+
+#~ msgid "I agree to the"
+#~ msgstr "انا اوافق على"
+
+#~ msgid "Terms"
+#~ msgstr "قوانين"
+
+#~ msgid "WP WritUp License Agreement"
+#~ msgstr "شروط استخدام WP WritUp"
+
+#~ msgid "I have read the contracts and accept them"
+#~ msgstr "لقد قمت بقراءة شروط الاستخدام وانا اوافق عليها"
+
+#~ msgid "Setting"
+#~ msgstr "اعدادات"
+
+#~ msgid "Trial"
+#~ msgstr "تجربة"
+
+#~ msgid "You are using a trial version"
+#~ msgstr "انت تستخدم اصدار تجريبي"
+
+#~ msgid "Your expired version"
+#~ msgstr "النسخة التي انتهت صلاحيتها"
+
+#~ msgid ""
+#~ "If you wish to continue using WP WritUp, update your activation key or "
+#~ "subscribe to one of our great offers!"
+#~ msgstr ""
+#~ "إذا كنت ترغب في الاستمرار في استخدام WP WritUp، قم بالتنشيط أو الاشتراك "
+#~ "في احد عروضنا الرائعة!"
+
+#~ msgid "Update the activation key"
+#~ msgstr "قم بتحديث مفتاح التنشيط"
+
+#~ msgid "Subscribe to an offer"
+#~ msgstr "اشترك في عرض"
+
+#~ msgid "days"
+#~ msgstr "ايام"
+
+#~ msgid "hour"
+#~ msgstr "ساعة"
+
+#~ msgid "Activated"
+#~ msgstr "مفعل"
+
+#~ msgid "Your version is enabled"
+#~ msgstr "تم تفعيل الاصدار"
+
+#~ msgid "You get the updates"
+#~ msgstr "انت تحصل على التحديثات"
+
+#~ msgid "Need help?"
+#~ msgstr "هل تحتاج الى المساعدة؟"
+
+#~ msgid ""
+#~ "If you need help completing the form, simply enter your credit card to "
+#~ "pay!"
+#~ msgstr ""
+#~ "إذا كنت بحاجة إلى مساعدة قم بملء النموذج، ما عليك سوى إدخال بطاقتك "
+#~ "الائتمانية للدفع!"
+
+#~ msgid "Payment Method"
+#~ msgstr "طرق الدفع"
+
+#~ msgid "Paypal"
+#~ msgstr "Paypal"
+
+#~ msgid "Card"
+#~ msgstr "البطاقة الائتمانية"
+
+#~ msgid "Card Number"
+#~ msgstr "رقم البطاقة"
+
+#~ msgid "Expiration date"
+#~ msgstr "تاريخ الانتهاء"
+
+#~ msgid "Card CVC"
+#~ msgstr "رقم CVC"
+
+#~ msgid "Enabling WP WritUp"
+#~ msgstr "تفعيل WP WritUp"
+
+#~ msgid "Your subscription to WP WritUp"
+#~ msgstr "اشتراكك في WP WritUp"
+
+#~ msgid "Hide"
+#~ msgstr "اخفاء"
+
+#~ msgid "Account Details"
+#~ msgstr "معلومات الحساب"
+
+#~ msgid "You have an account"
+#~ msgstr "لديك حساب"
+
+#~ msgid "Adress mail"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "Full Name"
+#~ msgstr "الاسم الكامل"
+
+#~ msgid "Email Adress"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "register"
+#~ msgstr "تسجيل"
+
+#~ msgid "http://dailycom.agency"
+#~ msgstr "http://dailycom.agency"
+
+#~ msgid ""
+#~ "If you have never used Wp WritUp, you can activate the trial version. You "
+#~ "can connect and link your wordpress if you benefit from a subscription. "
+#~ "Alternatively you can create one and choose one of our super "
+#~ "subscriptions!"
+#~ msgstr ""
+#~ "إذا لم تكن قد استخدمت Wp WritUp من قبل، يمكنك تفعيل النسخة التجريبية."
+#~ "ويمكنك ربط الوورد برس بالنسخة التجريبية للاستفادة منها. ويمكنك الاشتراك "
+#~ "في احد عروضنا المغرية!"
+
+#~ msgid "You must link your WP WritUp account to your plug-in to use it"
+#~ msgstr ""
+#~ "يجب ربط حساب WP WritUp مع البرنامج المساعد plug-in لكي تستطيع استخدامه"
+
+#~ msgid ""
+#~ "It's perfect! You've done a very nice job on this content, this one is "
+#~ "properly write and optimize!"
+#~ msgstr "انه مثالي! لقد قمت بعمل جيد في كتابة هذا المحتوى!"
+
+#~ msgid "All your paragraphs are correct"
+#~ msgstr "جميع الفقرات صحيحة"
+
+#~ msgid "The text contains"
+#~ msgstr "يحتوي النص على"
+
+#~ msgid "The beginning of your sentences are correctly constructed"
+#~ msgstr "ان إنشاء بدايات الجمل يتم بشكل صحيح"
+
+#~ msgid "You understand, this plug-in will change your writing."
+#~ msgstr "أنت على معرفة، بإن البرنامج المساعد سيغير طريقة كتابتك."
+
+#~ msgid "Click this button to disable WP WritUp"
+#~ msgstr "اضغط على هذا الزر لتعطيل WP WritUp"
+
+#~ msgid ""
+#~ "Some similar keywords are too close, use synonyms to enrich your content."
+#~ msgstr ""
+#~ "بعض الكلمات المفتاحية متشابهة بشكل كبير، استخدم المرادفات لإثراء المحتوى."
+
+#~ msgid "Validate"
+#~ msgstr "تحقق من صحة"
+
+#~ msgid "Add Your Tags"
+#~ msgstr "اضف العلامات"
+
+#~ msgid "Watch the analysis as you go"
+#~ msgstr "شاهد التحليل"
+
+#~ msgid ""
+#~ "Start by adding the keywords for this page. Once you have defined your "
+#~ "keywords, you can start writing your article. Our little pixie checks to "
+#~ "the fure and as you draft."
+#~ msgstr ""
+#~ "ابدأ بإضافة الكلمات المفتاحية لهذه الصفحة. بعد تحديد الكلمات المفتاحية، "
+#~ "يمكنك البدء في كتابة المقالة."
+
+#~ msgid "Delete"
+#~ msgstr "حذف"
+
+#~ msgid "You must use your main keyword in the H1"
+#~ msgstr "يجب استخدام الكلمة المفتاحية الرئيسية في H1"
+
+#~ msgid "Perfect, your main keyword is in your H1"
+#~ msgstr "ممتاز، الكلمة المفتاحية الرئيسية موجوده في عنوان H1"
+
+#~ msgid "No tags found. Add some!"
+#~ msgstr "لم يتم العثور على علامات . اضف البعض!"
+
+#~ msgid "One found. Too few!!"
+#~ msgstr "تم ايجاد عدد 1 . قليل جدا!!"
+
+#~ msgid "Many found. Great!"
+#~ msgstr "وجد الكثير . ممتاز!"
+
+#~ msgid "Content too short!"
+#~ msgstr "المحتوى قصير جدا!"
+
+#~ msgid "That's fine, but you can do better!"
+#~ msgstr "هذا جيد ولكنك تستطيع القيام بذلك بشكل افضل!"
+
+#~ msgid "It's perfect !"
+#~ msgstr "انها مثالية !"
+
+#~ msgid "No h1 tag found','WPWriting_app"
+#~ msgstr "لم يتم العثور على ترويسه H1  ','WPWriting_app"
+
+#~ msgid "Submit keywords"
+#~ msgstr "تاكيد الكلمات المفتاحية"
+
+#~ msgid "Rename keyword"
+#~ msgstr "اعادة تسمية الكلمة المفتاحية"
+
+#~ msgid "Keyword highlighter - Editor"
+#~ msgstr "الكلمات المفتاحية المهمة - تحرير"
+
+#~ msgid "Post title"
+#~ msgstr "عنوان المقالة"
+
+#~ msgid "(Note : 10/20)"
+#~ msgstr "(Note : 10/20)"
+
+#~ msgid "(Note : 13/20)"
+#~ msgstr "(Note : 13/20)"
+
+#~ msgid "(Note : 16/20)"
+#~ msgstr "(Note : 16/20)"
+
+#~ msgid "(Note : 19/20)"
+#~ msgstr "(Note : 19/20)"
+
+#~ msgid "(Note : 20/20)"
+#~ msgstr "(Note : 20/20)"
+
+#~ msgid "Choose 1 to 4 keywords"
+#~ msgstr "اختر من 1 الى 4 كلمات مفتاحية"
+
+#~ msgid "Choose 8 keywords lexical minimum"
+#~ msgstr "اختر 8 كلمات مفتاحية معجمية على الاقل"
+
+#~ msgid "Choose 1 keywords"
+#~ msgstr "اختر كلمة مفتاحية واحدة"
+
+#~ msgid "Submit keyword"
+#~ msgstr "تاكيد الكلمة المفتاحية"
+
+#~ msgid "You must choose 1 main keyword"
+#~ msgstr "عليك اختيار كلمة مفتاحية واحدة"
+
+#~ msgid ""
+#~ "The main keyword often refers to your offer or product but reformulated "
+#~ "as requested by a prospect.\n"
+#~ "    "
+#~ msgstr ""
+#~ "تشير الكلمة المفتاحية الرئيسية إلى العرض أو المنتج ولكن تم إعادة صياغتها "
+#~ "حسب الطلب "
+
+#~ msgid ""
+#~ "The main keyword often refers to your offer or product but reformulated "
+#~ "as requested by a prospect.\n"
+#~ msgstr ""
+#~ "تشير الكلمة المفتاحية الرئيسية إلى العرض أو المنتج ولكن تم إعادة صياغتها "
+#~ "حسب الطلب \n"
+
+#~ msgid "To begin"
+#~ msgstr "للبدء"
+
+#~ msgid "Indicated your main keyword"
+#~ msgstr "تحديد الكلمة المفتاحية الرئيسية"

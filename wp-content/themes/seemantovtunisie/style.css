@@ -205,7 +205,9 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.9;
 }
 @media screen and (max-width: 768px) {
-#content { margin-bottom:20% !important;}
+#content {
+	margin-bottom: 20% !important;
+}
 .sub-menu {
 	z-index: 10;
 	top: 38px !important;
@@ -265,6 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: relative;
 	font-size: 19px;
 	font-weight: 500;
+	text-transform: capitalize;
 }
 #fh5co-header #navbar li a span {
 	position: relative;
@@ -1435,7 +1438,7 @@ h1, h2, h3, h4, h5, h6 {
 	border: none;
 	background-color: initial;
 }
-.vfb-item input, .vfb-item select {
+.vfb-item input, .vfb-item select, .vfb-item textarea {
 	width: 100% !important;
 	border: 1px solid #57638e !important;
 	padding: 2% !important;
@@ -1608,7 +1611,4 @@ input[type="submit"] {
 }
 .offre-emploi:nth-child(3n+3) {
 	margin-top: 6%;
-
 }
-
-

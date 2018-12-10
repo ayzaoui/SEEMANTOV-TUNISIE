@@ -1,0 +1,617 @@
+
+/* -------------------------------- 
+
+Main Components 
+
+-------------------------------- */
+.wpw_modal_intro_cd-tour-wrapper {
+  position: relative;
+  z-index: 6500;
+  height: 90%;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
+  -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
+  transition: opacity 0.4s 0s, visibility 0s 0.4s;
+}
+.wpw_modal_intro_cd-tour-wrapper::before {
+  /* never visible - this is used in jQuery to check the current MQ */
+  display: none;
+  content: 'mobile';
+}
+.wpw_modal_intro_cd-tour-wrapper.active {
+  /* start tour */
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.4s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.4s 0s, visibility 0s 0s;
+  transition: opacity 0.4s 0s, visibility 0s 0s;
+}
+@media only screen and (min-width: 600px) {
+  .wpw_modal_intro_cd-tour-wrapper {
+    max-width: 500px;
+    max-height: 600px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .wpw_modal_intro_cd-tour-wrapper {
+    /* reset style */
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    max-width: none;
+    max-height: none;
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .wpw_modal_intro_cd-tour-wrapper::before {
+    /* never visible - this is used in jQuery to check the current MQ */
+    content: 'desktop';
+  }
+  .wpw_modal_intro_cd-tour-wrapper.active {
+    visibility: hidden;
+  }
+}
+
+.wpw_modal_intro_cd-single-step {
+  /* tour single step */
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fefffb;
+  border-radius: 4px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.4s 0s, opacity 0s 0.4s;
+  -moz-transition: -moz-transform 0.4s 0s, opacity 0s 0.4s;
+  transition: transform 0.4s 0s, opacity 0s 0.4s;
+}
+.wpw_modal_intro_cd-single-step > span {
+  /* dot indicator - visible on desktop version only */
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: inherit;
+  background: #124a66;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+  /* replace text with background images */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  /* hide on mobile */
+  display: none;
+}
+.wpw_intro_w > span {
+  background: #fff;
+}
+.wpw_modal_intro_cd-single-step::after {
+  /* this is used to create the pulse animation */
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* hide on mobile */
+  display: none;
+}
+.active .wpw_modal_intro_cd-single-step {
+  /* tour started */
+  -webkit-transform: scale(1) translateX(100%);
+  -moz-transform: scale(1) translateX(100%);
+  -ms-transform: scale(1) translateX(100%);
+  -o-transform: scale(1) translateX(100%);
+  transform: scale(1) translateX(100%);
+  -webkit-transition: -webkit-transform 0.4s 0s, opacity 0.4s 0s;
+  -moz-transition: -moz-transform 0.4s 0s, opacity 0.4s 0s;
+  transition: transform 0.4s 0s, opacity 0.4s 0s;
+}
+.active .wpw_modal_intro_cd-single-step.move-left {
+  -webkit-transform: scale(1) translateX(-100%);
+  -moz-transform: scale(1) translateX(-100%);
+  -ms-transform: scale(1) translateX(-100%);
+  -o-transform: scale(1) translateX(-100%);
+  transform: scale(1) translateX(-100%);
+}
+.active .wpw_modal_intro_cd-single-step.is-selected {
+  /* visible step */
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.4s 0s;
+  -moz-transition: -moz-transform 0.4s 0s;
+  transition: transform 0.4s 0s;
+}
+@media only screen and (min-width: 1100px) {
+  .wpw_modal_intro_cd-single-step {
+    /* reset style */
+    height: auto;
+    width: auto;
+    top: auto;
+    left: auto;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    border-radius: 50%;
+    visibility: hidden;
+    opacity: 1;
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-transition: visibility 0s 0.4s;
+    -moz-transition: visibility 0s 0.4s;
+    transition: visibility 0s 0.4s;
+  }
+  .wpw_modal_intro_cd-single-step:nth-of-type(1) {
+    /* set tour points positions */
+    bottom: -37px;
+    right: 57px;
+  }
+  .wpw_modal_intro_cd-single-step:nth-of-type(2) {
+    bottom: -163px;
+    right: 333px;
+  }
+  .wpw_modal_intro_cd-single-step:nth-of-type(3) {
+    bottom: -265px;
+    right: 980px;
+  }
+  .wpw_modal_intro_cd-single-step > span, .wpw_modal_intro_cd-single-step::after {
+    display: block;
+  }
+  .active .wpw_modal_intro_cd-single-step, .active .wpw_modal_intro_cd-single-step.move-left {
+    -webkit-transition: visibility 0s 0.4s;
+    -moz-transition: visibility 0s 0.4s;
+    transition: visibility 0s 0.4s;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .wpw_modal_intro_cd-single-step.is-selected {
+    visibility: visible;
+    -webkit-transition: visibility 0s 0s;
+    -moz-transition: visibility 0s 0s;
+    transition: visibility 0s 0s;
+  }
+  .wpw_modal_intro_cd-single-step.is-selected > span {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  .wpw_modal_intro_cd-single-step.is-selected::after {
+    -webkit-animation: wpw_modal_intro_cd-pulse 2s infinite;
+    -moz-animation: wpw_modal_intro_cd-pulse 2s infinite;
+    animation: wpw_modal_intro_cd-pulse 2s infinite;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  .wpw_modal_intro_cd-single-step.wpw_intro_w.is-selected::after {
+    -webkit-animation: wpw_modal_intro_cd-pulse2 2s infinite;
+    -moz-animation: wpw_modal_intro_cd-pulse2 2s infinite;
+    animation: wpw_modal_intro_cd-pulse2 2s infinite;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  .wpw_modal_intro_cd-single-step.is-selected .wpw_modal_intro_cd-more-info {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes wpw_modal_intro_cd-pulse {
+  0% {
+    box-shadow: 0 0 0 0 #5a707b;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 150, 44, 0);
+  }
+}
+@-moz-keyframes wpw_modal_intro_cd-pulse {
+  0% {
+    box-shadow: 0 0 0 0 #5a707b;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 150, 44, 0);
+  }
+}
+@keyframes wpw_modal_intro_cd-pulse {
+  0% {
+    box-shadow: 0 0 0 0 #5a707b;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 150, 44, 0);
+  }
+}
+
+@-webkit-keyframes wpw_modal_intro_cd-pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 150, 44, 0);
+  }
+}
+@-moz-keyframes wpw_modal_intro_cd-pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 150, 44, 0);
+  }
+}
+@keyframes wpw_modal_intro_cd-pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 150, 44, 0);
+  }
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info {
+  z-index: 1;
+  padding: 20px;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info::before {
+  /* triangle next to the step description - hidden on mobile */
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border: 6px solid transparent;
+  display: none;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info h2 {
+  font-size: 22px!important;
+  line-height: 1.2!important;
+  margin-bottom: 20px!important;
+  color:#124a66!important;
+  padding:0!important;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info p {
+  font-size: 14px!important;
+  line-height: 1.6!important;
+  margin:0!important;
+  margin-bottom: 14px!important;
+  color: #375b6d !important;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info img {
+  margin-bottom: 1.4em;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info .wpw_modal_intro_cd-close {
+  /* 'X' icon to skip the tour */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  /* replace text with background images */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info .wpw_modal_intro_cd-close::after, .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info .wpw_modal_intro_cd-close:before {
+  /* these are the 2 lines of the 'X' icon */
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 2px;
+  width: 16px;
+  border-radius: 4em;
+  background-color: #cbccc8;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info .wpw_modal_intro_cd-close::after {
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info .wpw_modal_intro_cd-close::before {
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+.wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info span {
+  /* step count e.g. 1 of 3*/
+  float: left;
+  padding-top: .1em;
+  font-size: 14px;
+color: #124a66;
+}
+@media only screen and (min-width: 1100px) {
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info {
+    position: absolute;
+    width: 340px;
+    border-radius: 4px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    background-color: #fefffb;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    border-color: #fefffb;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info p {
+    margin-bottom: 10px!important;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info img {
+    display: none;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info::before {
+    /* triangle next to the step description - hidden on mobile */
+    display: block;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.left {
+    right: calc(100% + 15px);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.right {
+    left: calc(100% + 15px);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.left, .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.right {
+    top: 50%;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.top {
+    bottom: calc(100% + 15px);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.bottom {
+    top: calc(100% + 15px);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.top, .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.bottom {
+    left: 50%;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.left::before, .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.right::before {
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.top::before, .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.bottom::before {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.left::before {
+    border-left-color: inherit;
+    left: 100%;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.right::before {
+    border-right-color: inherit;
+    right: 100%;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.top::before {
+    border-top-color: inherit;
+    top: 100%;
+  }
+  .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info.bottom::before {
+    border-bottom-color: inherit;
+    bottom: 100%;
+  }
+  .is-selected .wpw_modal_intro_cd-single-step .wpw_modal_intro_cd-more-info {
+    opacity: 1;
+  }
+}
+
+.wpw_modal_intro_cd-tour-nav {
+  float: right;
+}
+.wpw_modal_intro_cd-tour-nav::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.wpw_modal_intro_cd-tour-nav li {
+  display: inline-block;
+  float: left;
+}
+.wpw_modal_intro_cd-tour-nav li:first-of-type {
+  margin-right: 1.5em;
+}
+.wpw_modal_intro_cd-tour-nav a {
+  font-size: 14px;
+  color:#124a66;
+  font-weight: bold;
+}
+.wpw_modal_intro_cd-tour-nav a.inactive {
+  /* item not clickable */
+  color: #cbccc8;
+  cursor: not-allowed;
+}
+.wpw_modal_intro_cd-tour-nav a.inactive.wpw_modal_intro_bt-close {
+  color: #f00!important;
+  cursor: default!important;
+}
+.wpw_modal_intro_cd-cover-layer {
+  /* background cover layer - visible when tour is activated */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
+  -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
+  transition: opacity 0.4s 0s, visibility 0s 0.4s;
+}
+.wpw_modal_intro_cd-cover-layer.is-visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.4s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.4s 0s, visibility 0s 0s;
+  transition: opacity 0.4s 0s, visibility 0s 0s;
+}
+@media only screen and (min-width: 1100px) {
+  .wpw_modal_intro_cd-cover-layer.is-visible {
+    opacity: 0;
+    -webkit-animation: wpw_modal_intro_cd-fade-in 2.1s;
+    -moz-animation: wpw_modal_intro_cd-fade-in 2.1s;
+    animation: wpw_modal_intro_cd-fade-in 2.1s;
+  }
+}
+
+@-webkit-keyframes wpw_modal_intro_cd-fade-in {
+  0%, 100% {
+    opacity: 0;
+  }
+  14%, 40% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes wpw_modal_intro_cd-fade-in {
+  0%, 100% {
+    opacity: 0;
+  }
+  14%, 40% {
+    opacity: 1;
+  }
+}
+@keyframes wpw_modal_intro_cd-fade-in {
+  0%, 100% {
+    opacity: 0;
+  }
+  14%, 40% {
+    opacity: 1;
+  }
+}
+/* -------------------------------- 
+
+xapp prototype - no need to import this in production 
+
+-------------------------------- */
+.wpw_modal_intro_cd-app-screen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  height: 80%;
+  background: #222d33;
+  border-radius: 4px;
+  box-shadow: 0 10px 60px #08151d;
+}
+.wpw_modal_intro_cd-app-screen::before, .wpw_modal_intro_cd-app-screen::after {
+  content: '';
+  position: absolute;
+}
+.wpw_modal_intro_cd-app-screen::before {
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background: #fefffb;
+  border-radius: 4px 4px 0 0;
+}
+.wpw_modal_intro_cd-app-screen::after {
+  top: 14px;
+  left: 20px;
+  height: 12px;
+  width: 60px;
+  background: #e4e5e1;
+  border-radius: 3px;
+}

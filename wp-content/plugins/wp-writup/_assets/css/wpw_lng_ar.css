@@ -1,0 +1,99 @@
+#wpw_analyse_keyword div{
+    float:right!important;
+    text-align:right!important;
+}
+.wpw_step_title {
+    margin-left: 0px!important;
+    margin-right: 125px!important;
+}
+.cd-single-point:nth-of-type(1) {
+    right:auto!important;
+    left: 22px!important;
+}
+.wpw_whokeyword_span{
+    margin:auto 10px auto 5px!important;
+}
+.wpw_whokeyword_2, .wpw_whokeyword_3, .wpw_whokeyword_4{
+    padding-left:0px;
+}
+.wpw_whokeyword_span_txt {
+    margin-right: 0!important;
+    margin-left: 0!important;
+} 
+#wpw_box_top [type="checkbox"]:not(:checked), #wpw_box_top [type="checkbox"]:checked{
+    right: -9999px!important;
+    left:auto!important;
+}
+#wpw_box_top .title{
+    text-align:left;
+}
+#wpw_box_top [type="checkbox"]:not(:checked) + label, #wpw_box_top [type="checkbox"]:checked + label{
+    padding-right: 75px!important;
+    padding-left:0!important;
+}
+#wpw_analyse_display div{
+    float: right!important;
+}
+#analyse_hkp .contenu, #analyse_wdf .contenu, #analyse_p .contenu_short, #analyse_p .contenu_short, #analyse_p .contenu_long, #analyse_p .title_short, #analyse_p .title_long{
+    float:right!important
+}
+.icon_view{
+    margin-right:0px!important;
+    margin-left:5px!important;
+}
+#wpw_grade{
+    margin-right: -15px!important;
+    margin-left:0!important;
+}
+.grade{
+    margin-left: 15px!important;
+    text-align:left!important;
+    left:10%!important;
+}
+.status_analyse{
+    margin-left:0px!important;
+    margin-right:-18px!important;
+}
+
+#wpw_menu_bottom {
+    float: right!important;
+    width: auto!important;
+}
+.synonym_core .words, .semantics_core .words{
+    text-align: right!important;
+    float: right!important;
+}
+#wpw_addkey_step_first{
+    float:left!important;
+}
+#wpw_box_bottom .tabs .keywords1, #wpw_box_bottom .tabs .keywords2, #wpw_box_bottom .tabs .keywords3, #wpw_box_bottom .tabs .keywords1bis, #wpw_box_bottom .tabs .keywords2bis, #wpw_box_bottom .tabs .keywords3bis{
+    float:right!important;
+}
+#wpw_box_bottom .words .keyword.tab{
+    float:right!important;
+}
+.wpw_button_bottom{
+    float:right!important;
+}
+.wpw_next{
+    float:left!important;
+}
+.wpw_previous{
+    float:right!important;
+}
+.add-form{
+    float:right!important;
+    text-align: right!important;
+}
+.wpw_submit_key{
+    float:left!important;
+}
+.wpw_next div{
+    float:left!important;
+}
+.wpw_previous div {
+    float: right!important;
+}
+.suggestion_keyword{
+    float:right;
+}

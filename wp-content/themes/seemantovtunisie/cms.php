@@ -3,7 +3,7 @@
 
 <section id="banner">
   <div class="container-full"> <img class="img-responsive banner-interne" src="<?php the_post_thumbnail_url();?>" title="<?php echo get_the_title(); ?>" alt="<?php echo get_the_title(); ?>" /> 
-  <div class="title-page"><?php echo the_title(); ?></div>
+  <h1 class="title-page"><?php echo the_title(); ?></h1>
   </div>
 </section>
 <section id="content">
