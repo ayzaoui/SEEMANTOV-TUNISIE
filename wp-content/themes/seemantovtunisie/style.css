@@ -1534,6 +1534,7 @@ input[type="submit"] {
 .liste-contact {
 	margin: 6% 0 6% 0;
 	list-style: none;
+	padding: 0;
 }
 .contact-page iframe {
 	margin-top: 5% !important;
