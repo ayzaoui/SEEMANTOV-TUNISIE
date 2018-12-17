@@ -15,7 +15,14 @@ $("select").addClass("custom-select d-block w-100");
   });
 });*/
 
-$("#slider-index").slick({nextArrow:'<button class="slick-next"><svg width="48" height="48" class="icon"><use xlink:href="#arrow-right"></use></svg></button>',prevArrow:'<button class="slick-prev"><svg width="48" height="48" class="icon"><use xlink:href="#arrow-left"></use></svg></button>',dots:!0,autoplay:!0,infinite:!0,fade:!0,speed:1e3,autoplaySpeed:6e3,slidesToShow:1,slidesToScroll:1,responsive:[{breakpoint:995,settings:{arrows:!1,dots:!0,autoplay:!0,fade:!0,slidesToShow:1,slidesToScroll:1}}]})
+$("#slider-index").slick({nextArrow:'<button class="slick-next"><svg width="48" height="48" class="icon"><use xlink:href="#arrow-right"></use></svg></button>',prevArrow:'<button class="slick-prev"><svg width="48" height="48" class="icon"><use xlink:href="#arrow-left"></use></svg></button>',dots:!0,autoplay:!0,infinite:!0,fade:!0,speed:1e3,autoplaySpeed:6e3,slidesToShow:1,slidesToScroll:1,responsive:[{breakpoint:995,settings:{arrows:!1,dots:!0,autoplay:!0,fade:!0,slidesToShow:1,slidesToScroll:1}}]});
+
+
+$('<label tabindex="0" for="my-file" class="input-file-trigger">Choisir un fichier...</label>').insertAfter( "#vfb-7" );
+
+$("#contact-2").validate();
+$("#condidature-spontanee-1").validate();
+$("#postuler-3").validate();
 
 
 

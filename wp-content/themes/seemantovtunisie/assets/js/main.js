@@ -32,8 +32,10 @@
 
 			if ( $('#navbar').is(':visible') ) {
 				$(this).removeClass('active');
+				$('#navbar').addClass('off');
 			} else {
-				$(this).addClass('active');	
+				$(this).addClass('active');
+				$('#navbar').removeClass('off');	
 			}
 
 			

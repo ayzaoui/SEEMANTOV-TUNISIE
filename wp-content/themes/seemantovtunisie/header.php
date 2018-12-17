@@ -55,7 +55,7 @@ html {
 					  
 					  "theme_location" =>"main",
 					  "container" => "div",
-					  "container_class" => "navbar-collapse collapse col-sm-9",
+					  "container_class" => "navbar-collapse collapse",
 					  "items_wrap" => '<ul class="nav navbar-nav navbar-right">%3$s</ul>'
 					  
 					  )); 

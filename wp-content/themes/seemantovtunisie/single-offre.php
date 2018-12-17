@@ -11,7 +11,7 @@
   <div class="bloc-img"><?php the_post_thumbnail('offre-emploi', array('class' => 'img-responsive  bloc-center')); ?></div>
     <?php the_content(); ?>
   </div>
-   <div class="postulez bloc-center"><a href="<?php echo site_url(); ?>/candidature-spontanee/">Postulez</a></div>
+   <div class="postulez bloc-center"><a href="#exampleModalCenter" data-toggle="modal">Postulez</a></div>
   <?php endwhile;  ?>
   <?php endif; ?>
 </section>

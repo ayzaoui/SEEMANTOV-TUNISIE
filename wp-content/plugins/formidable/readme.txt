@@ -2,9 +2,9 @@
 Contributors: formidableforms, sswells, srwells, jamie.wahlin
 Tags: forms, contact form, form builder, survey, form maker, form, form creator
 Requires at least: 4.5
-Tested up to: 4.9.8
+Tested up to: 5.0
 Requires PHP: 5.3
-Stable tag: 3.04.02
+Stable tag: 3.04.03
 
 The most advanced WordPress forms plugin. Go beyond contact forms with our drag & drop form builder for surveys, quiz forms, and more.
 
@@ -375,14 +375,14 @@ Formidable Forms drag & drop form builder combined with our add-ons is the most 
 You can get access to more features, integrations, and support by <a href="https://formidableforms.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion">upgrading to our Pro version</a>. Purchasing a Pro license gets you access to the full version of Formidable Forms for more advanced contact forms, Formidable Views, graphs and stats, priority support, and Formidable Forms Add-ons!
 
 == Changelog ==
+= 3.04.03 =
+* New: Improved autoupdating and installation for form add-ons
+* Tweak: Only show the form add-ons page to those who can activate plugins
+* Fix: Radio button shadows had a box around them in some browsers
+* Fix: Don't mark an entry as a duplicate when the second entry includes more fields than the first
+* Code: Move deprecated code to its own folder
+
 = 3.04.02 =
 * New: When HTML5 is used, auto add the http in a url field if it is omitted by the user
-
-= 3.04.01 =
-* New: When a form includes a user ID field, include helpers in the Advanced tab to get data from the user profile for use in emails and other form actions.
-* Code: Refactor and clean up the code for the Advanced tab in the form settings sidebar
-* Code: Add frm_advanced_helpers hook to move some Advanced shortcode examples to Pro
-* Code: Add frm_field_code_tab hook to add extra shortcodes in the customization sidebar for a single field
-* Update translations
 
 <a href="https://raw.githubusercontent.com/Strategy11/formidable-forms/master/changelog.txt">See changelog for all versions</a>

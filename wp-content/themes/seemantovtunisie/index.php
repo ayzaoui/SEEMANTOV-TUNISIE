@@ -1,50 +1,63 @@
 <?php /* Template Name: Accueil */ ?>
 <?php get_header();?>
+
 <div id="slider-index">
-<?php query_posts('post_type=banner&showposts=-1&order=DESC') ?>
-<?php  while ( have_posts() ) : the_post(); ?>
-<section class="fh5co-home" data-section="home" style="background-image: url(<?php the_post_thumbnail_url('banner-index', array('class' => 'img-responsive')); ?>);" data-stellar-background-ratio="0.5">
-  <div class="gradient"></div>
-  <div class="container">
-    <div class="text-wrap">
-      <div class="text-inner">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2"> 
-            <!--<h1 class="to-animate">Developpez vos sites et applications mobile à un coût réduit </h1>-->
-            <h1 class="to-animate"><?php the_title(); ?></h1>
-            <h2 class="to-animate"><?php the_content(); ?></h2>
-            
+  <?php query_posts('post_type=banner&showposts=-1&order=DESC') ?>
+  <?php  while ( have_posts() ) : the_post(); ?>
+  <section class="fh5co-home" data-section="home" style="background-image: url(<?php the_post_thumbnail_url('banner-index', array('class' => 'img-responsive')); ?>);" data-stellar-background-ratio="0.5">
+    <div class="gradient"></div>
+    <div class="container">
+      <div class="text-wrap">
+        <div class="text-inner">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h1 class="to-animate">
+                <?php the_title(); ?>
+              </h1>
+              <h2 class="to-animate">
+                <?php the_content(); ?>
+              </h2>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="slant"></div>
-</section>
-<?php endwhile; ?>
-<?php wp_reset_query(); ?>
-
+    <div class="slant"></div>
+  </section>
+  <?php endwhile; ?>
+  <?php wp_reset_query(); ?>
 </div>
 <section id="fh5co-intro" data-section="work">
   <div class="container">
     <div class="row row-bottom-padded-lg">
-      <div class="fh5co-block to-animate" style="background-image: url(<?php bloginfo("stylesheet_directory"); ?>/assets/images/img_8.jpg);">
-        <div class="overlay-darker"></div>
-        <div class="overlay"></div>
-        <div class="fh5co-text"> <i class="fh5co-intro-icon icon-wrench"></i>
-          <h2>Mise en relation avec le développeur</h2>
-          <p>Après avoir accepté le devis, vous êtes mis en relation avec le développeur. Vous pouvez donc commencer la mission et lui donner plus de détails</p>
-          <p><a href="<?php echo site_url(); ?>/nos-services/developpement/" class="btn btn-primary">Besoin d'un développeur ?</a></p>
-        </div>
-      </div>
+      <?php query_posts('page_id=61'); ?>
+      <?php while (have_posts()) : the_post(); ?>
       <div class="fh5co-block to-animate" style="background-image: url(<?php bloginfo("stylesheet_directory"); ?>/assets/images/img_10.jpg);">
         <div class="overlay-darker"></div>
         <div class="overlay"></div>
         <div class="fh5co-text"> <i class="fh5co-intro-icon icon-rocket"></i>
-          <h2>Début de la mission</h2>
-          
-          <p>La mission commence, les fonds sont bloqués et versés (au prorata du travail éffectué) au développeur après validation de chaque étape (sprints).</p>
+          <h2>
+            <?php the_title(); ?>
+          </h2>
+          <p><?php echo excerpt(20); ?></p>
           <p><a href="<?php echo site_url(); ?>/nos-services/recrutement/" class="btn btn-primary">Commencez la mission!</a></p>
+          <?php endwhile;?>
+          <?php wp_reset_query(); ?>
+        </div>
+      </div>
+      <?php query_posts('page_id=63'); ?>
+      <?php while (have_posts()) : the_post(); ?>
+      <div class="fh5co-block to-animate" style="background-image: url(<?php bloginfo("stylesheet_directory"); ?>/assets/images/img_8.jpg);">
+        <div class="overlay-darker"></div>
+        <div class="overlay"></div>
+        <div class="fh5co-text"> <i class="fh5co-intro-icon icon-wrench"></i>
+          <h2>
+            <?php the_title(); ?>
+          </h2>
+          <p><?php echo excerpt(20); ?></p>
+          <p><a href="<?php echo site_url(); ?>/nos-services/developpement/" class="btn btn-primary">Besoin d'un développeur ?</a></p>
+          <?php endwhile;?>
+          <?php wp_reset_query(); ?>
         </div>
       </div>
     </div>
@@ -53,14 +66,18 @@
 <section id="fh5co-work" data-section="about">
   <div class="container">
     <div class="row">
+      <?php query_posts('page_id=17'); ?>
+      <?php while (have_posts()) : the_post(); ?>
       <div class="col-md-12 section-heading text-center">
         <h2 class="to-animate">Nos offres</h2>
         <div class="row">
           <div class="col-md-8 col-md-offset-2 subtext to-animate">
-            <h3>SEEMANTOV propose la mise en relation entre Startup/PME françaises et les meilleurs développeurs africains.</h3>
+            <h3><?php echo excerpt(20); ?></h3>
           </div>
         </div>
       </div>
+      <?php endwhile;?>
+      <?php wp_reset_query(); ?>
     </div>
     <div class="row">
       <?php query_posts('post_type=offre&showposts=3&order=DESC') ?>
@@ -74,11 +91,35 @@
             <?php the_title(); ?>
           </h3>
           </a>
-          <?php /*?> <span class="fh5co-position">par rapport aux tarifs en France</span><?php */?>
-          <div class="detail-offre"><a href="<?php the_permalink(); ?>"<?php the_excerpt(); ?></a></div>
+          <div class="detail-offre"><a href="<?php the_permalink(); ?>">
+            <?php the_excerpt(); ?>
+            </a></div>
+          <?php $id = get_the_ID(); ?>
+          <div class="voir-detail"><a href="<?php the_permalink(); ?>">Détail</a></div>
+         <?php /*?> <div class="postulez"><a href="#<?php echo $id; ?>" data-toggle="modal">Postulez</a></div><?php */?>
+        </div>
+<?php /*?>        <!-- Modal -->
+      <div id="<?php echo $id; ?>" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <div class="bloc-center title-poste"> Postulez pour la poste :
+                <?php the_title(); ?>
+              </div>
+            </div>
+            <div class="modal-body">
+              
+              <?php echo do_shortcode('[vfb id=3]'); ?> </div>
+          </div>
         </div>
       </div>
+      
+      <!-- Modal --><?php */?>
+      </div>
+      
       <?php endwhile; ?>
+      
       <?php wp_reset_query(); ?>
     </div>
   </div>
